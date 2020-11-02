@@ -1,0 +1,27 @@
+{
+  "name": "pfs_curso",
+  "version": "1.0.0",
+  "description": "Listado de usuarios",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Carlos",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.8",
+    "@types/mongoose": "^5.7.37",
+    "@types/mongoose-unique-validator": "^1.0.4"
+  }
+}
